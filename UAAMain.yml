@@ -13,7 +13,7 @@ spring:
     name: UAAMain
   data:
     mongodb:
-      uri: mongodb://192.168.4.101:27017/UAAMain
+      uri: mongodb://185.231.181.115:27017/UAAMain
 eureka:
   client:
     service-url:

@@ -25,7 +25,7 @@ spring:
       max-request-size: 10240KB
   data:
     mongodb:
-      uri: mongodb://192.168.4.101:27017/InConnect
+      uri: mongodb://185.231.181.115:27017/InConnect
     redis:
       database: 0
       timeout: 60000
@@ -37,20 +37,6 @@ spring:
     port: 5672
     username: rabbitmq
     password: rabbitmq
-  jpa:
-    database: POSTGRESQL
-    generate-ddl: true 
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        temp:
-          use_jdbc_metadata_defaults: false
-    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
-  datasource:
-    url: jdbc:postgresql://185.231.181.115:5432/inconnect
-    username: postgres
-    password: ppp@13821382 
 eureka:
   client:
     service-url:

@@ -25,7 +25,7 @@ spring:
       max-request-size: 10240KB
   data:
     mongodb:
-      uri: mongodb://192.168.4.101:27017/UAA
+      uri: mongodb://185.231.181.115:27017/UAA
     redis:
       database: 0
       timeout: 60000
