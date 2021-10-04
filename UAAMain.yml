@@ -10,10 +10,10 @@ server:
     min-response-size: 1024
 spring:
   application:
-    name: UAA
+    name: UAAMain
   data:
     mongodb:
-      uri: mongodb://192.168.4.101:27017/UAA
+      uri: mongodb://192.168.4.101:27017/UAAMain
 eureka:
   client:
     service-url:
@@ -71,7 +71,7 @@ jwt:
     header-name: Authorization
 
 project:
-  key: HIVE_MARKET_PROJECT
+  key: CHENAR_MARKET_PROJECT
 security:
   oauth2:
     client:
