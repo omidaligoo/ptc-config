@@ -54,7 +54,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://discovery:8021/eureka
+      defaultZone: http://discovery:8022/eureka
     enabled: true
     healthcheck:
       enabled: true
