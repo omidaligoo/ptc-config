@@ -21,7 +21,7 @@ spring:
         - http://192.168.4.101:8022
   data:
     mongodb:
-      uri: mongodb://mongo-net:27017/UAAMain
+      uri: mongodb://185.231.181.115:27017/UAAMain
   rabbitmq:
     host: 192.168.4.101
     port: 5672
