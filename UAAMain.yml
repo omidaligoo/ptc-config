@@ -21,7 +21,6 @@ spring:
         - http://192.168.4.101:8022
   data:
     mongodb:
-#      uri: mongodb://mongo-net:27017/UAAMain
       host: 185.231.181.115
       port: 27017
       database: UAAMain
