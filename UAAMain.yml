@@ -11,9 +11,22 @@ server:
 spring:
   application:
     name: UAAMain
+  profiles:
+    active:
+    - test
+  boot:
+    admin:
+      client:
+        url:
+        - http://192.168.4.101:8022
   data:
     mongodb:
-      uri: mongodb://mongo-net:27017/UAAMain
+      uri: mongodb://127.0.0.1:27017/UAAMain
+  rabbitmq:
+    host: 192.168.4.101
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
