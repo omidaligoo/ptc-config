@@ -18,7 +18,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://discovery:8022/eureka
+      defaultZone: http://main-discovery:8022/eureka
     enabled: true
     healthcheck:
       enabled: true
@@ -60,11 +60,11 @@ zuul:
     time-to-live: 60000000
   routes:
     uaa:
-      path: /UAA/**
-      service-id: UAA
+      path: /MainUAA/**
+      service-id: MainUAA
     core:
-      path: /Core/**
-      service-id: Core
+      path: /Ads/**
+      service-id: Ads
     fast-rep:
       path: /FastRep/**
       service-id: FastRep
