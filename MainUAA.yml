@@ -1,4 +1,5 @@
 server:
+host-address-authentication: http://192.168.4.101:8000
   servlet:
     session:
       timeout: 600000
@@ -21,9 +22,7 @@ spring:
         - http://192.168.4.101:8022
   data:
     mongodb:
-      host: 185.231.181.115
-      port: 27017
-      database: UAAMain
+      uri: mongodb://185.231.181.115:27017/UAA
   rabbitmq:
     host: 192.168.4.101
     port: 5672
