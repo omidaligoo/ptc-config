@@ -10,7 +10,7 @@ server:
     min-response-size: 1024
 spring:
   application:
-    name: UAAMain
+    name: MainUAA
   profiles:
     active:
     - test
