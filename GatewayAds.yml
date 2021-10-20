@@ -1,5 +1,9 @@
 server:
   host-address-authentication: http://192.168.4.101:8000
+  host-address-signin-session: http://192.168.4.101:8024
+  host-address-microservice-drive: http://192.168.4.101:8016
+  host-address-microservice-notification: http://192.168.4.101:8080
+  host-address-microservice-messaging: http://192.168.4.101:8081
   servlet:
     session:
       timeout: 600000
