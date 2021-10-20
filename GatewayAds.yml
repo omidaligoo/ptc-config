@@ -1,4 +1,5 @@
 server:
+  host-address-authentication: http://192.168.4.101:8000
   servlet:
     session:
       timeout: 600000
